@@ -125,7 +125,6 @@ h3 { font-size: var(--fs-h3) }
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
-    color: var(--clr-main);
 }
 
 
@@ -365,6 +364,7 @@ header {
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
+        color: var(--clr-main);
     }
     
     .about-me__img {
