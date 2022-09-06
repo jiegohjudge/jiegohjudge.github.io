@@ -341,7 +341,7 @@ header {
     box-shadow: var(--bs);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
@@ -370,7 +370,7 @@ header {
     .about-me__img {
         grid-area: img;
         position: relative;
-        z-index: 2;
+        z-index: 5;
     }
 }
 
