@@ -61,6 +61,11 @@ img {
     max-width: 100%;
 }
 
+img2 {
+    display: block;
+    max-width: 200%;
+}
+
 strong { font-weight: var(--fw-bold) }
 
 :focus {
@@ -344,7 +349,7 @@ header {
 @media (min-width: 600px) {
     .about-me {
         display: grid;
-        grid-template-columns: 1fr 600px;
+        grid-template-columns: 1fr 200px;
         grid-template-areas: 
             "title img"
             "subtitle img"
@@ -368,7 +373,7 @@ header {
     }
     
     .about-me__img {
-        grid-area: img;
+        grid-area: img2;
         position: relative;
         z-index: 2;
     }
