@@ -17,6 +17,7 @@
     --clr-dark: #303030;
     --clr-accent: #FF3626;
     --clr-accent2: #FF887F;
+    --clr-main: #000000;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -124,6 +125,7 @@ h3 { font-size: var(--fs-h3) }
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    color: var(--clr-main);
 }
 
 
